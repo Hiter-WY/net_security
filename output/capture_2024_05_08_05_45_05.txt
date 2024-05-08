@@ -1,0 +1,110 @@
+Source IP: 120.232.218.117
+Destination IP: 192.168.50.130
+Source Port: 57001
+Destination Port: 44184
+-----------------
+Source IP: 192.168.50.130
+Destination IP: 120.232.218.117
+Source Port: 44184
+Destination Port: 57001
+-----------------
+Source IP: 120.232.218.117
+Destination IP: 192.168.50.130
+Source Port: 57001
+Destination Port: 44198
+-----------------
+Source IP: 192.168.50.130
+Destination IP: 120.232.218.117
+Source Port: 44198
+Destination Port: 57001
+-----------------
+Source IP: 192.168.50.130
+Destination IP: 120.232.218.117
+Source Port: 44184
+Destination Port: 57001
+-----------------
+Source IP: 192.168.50.130
+Destination IP: 120.232.218.117
+Source Port: 44198
+Destination Port: 57001
+-----------------
+Source IP: 120.232.218.117
+Destination IP: 192.168.50.130
+Source Port: 57001
+Destination Port: 44184
+-----------------
+Source IP: 192.168.50.130
+Destination IP: 120.232.218.117
+Source Port: 44198
+Destination Port: 57001
+-----------------
+Source IP: 120.232.218.117
+Destination IP: 192.168.50.130
+Source Port: 57001
+Destination Port: 44198
+-----------------
+Source IP: 120.232.218.117
+Destination IP: 192.168.50.130
+Source Port: 57001
+Destination Port: 44198
+-----------------
+Source IP: 120.232.218.117
+Destination IP: 192.168.50.130
+Source Port: 57001
+Destination Port: 44198
+-----------------
+Source IP: 192.168.50.130
+Destination IP: 120.232.218.117
+Source Port: 44184
+Destination Port: 57001
+-----------------
+Source IP: 120.232.218.117
+Destination IP: 192.168.50.130
+Source Port: 57001
+Destination Port: 44184
+-----------------
+Source IP: 120.232.218.117
+Destination IP: 192.168.50.130
+Source Port: 57001
+Destination Port: 44184
+-----------------
+Source IP: 192.168.50.130
+Destination IP: 192.168.50.2
+Source Port: 48042
+Destination Port: 53
+-----------------
+Source IP: 192.168.50.2
+Destination IP: 192.168.50.130
+Source Port: 53
+Destination Port: 48042
+-----------------
+Source IP: 192.168.50.130
+Destination IP: 120.232.218.117
+Source Port: 44214
+Destination Port: 57001
+-----------------
+Source IP: 120.232.218.117
+Destination IP: 192.168.50.130
+Source Port: 57001
+Destination Port: 44214
+-----------------
+Source IP: 192.168.50.130
+Destination IP: 120.232.218.117
+Source Port: 44214
+Destination Port: 57001
+-----------------
+Source IP: 192.168.50.130
+Destination IP: 120.232.218.117
+Source Port: 44214
+Destination Port: 57001
+-----------------
+Source IP: 120.232.218.117
+Destination IP: 192.168.50.130
+Source Port: 57001
+Destination Port: 44214
+-----------------
+Source IP: 192.168.50.130
+Destination IP: 120.232.218.117
+Source Port: 44214
+Destination Port: 57001
+-----------------

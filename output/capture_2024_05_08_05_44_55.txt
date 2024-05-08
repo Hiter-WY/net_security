@@ -1,0 +1,5 @@
+Source IP: 192.168.50.1
+Destination IP: 239.255.255.250
+Source Port: 52902
+Destination Port: 1900
+-----------------
