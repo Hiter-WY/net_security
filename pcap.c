@@ -60,8 +60,13 @@ void generate_filename() {
     struct tm *tm_info;
     tm_info = localtime(&now);
 
+    // 创建名为 "output" 的文件夹
+    mkdir("output", 0777);
+
     // 格式化时间字符串
-    strftime(filename, 32, "capture_%Y_%m_%d_%H_%M_%S.txt", tm_info);
+    snprintf(filename, sizeof(filename), "output/capture_%04d_%02d_%02d_%02d_%02d_%02d.txt",
+             tm_info->tm_year + 1900, tm_info->tm_mon + 1, tm_info->tm_mday,
+             tm_info->tm_hour, tm_info->tm_min, tm_info->tm_sec);
 }
 
 // 将数据包信息写入文件
@@ -117,7 +122,7 @@ int main() {
     int i = 0;
     int choice;
     struct bpf_program filter; // 过滤器
-    char filter_exp[] = "tcp or udp"; // 设置过滤条件
+    char filter_exp[] = "tcp or udp and dst port 443"; // 设置过滤条件
 
     // 查找网络接口设备
     if (pcap_findalldevs(&alldevs, errbuf) == -1) {
@@ -191,7 +196,7 @@ int main() {
     printf("File name: %s\n", filename);
 
     FILE *file = fopen(filename, "a");
-    fprintf(file, "filter: %s\n", filter_exp);
+    fprintf(file, "filter: %s\n------------------------\n", filter_exp);
     fclose(file);
 
     // 开始抓包
